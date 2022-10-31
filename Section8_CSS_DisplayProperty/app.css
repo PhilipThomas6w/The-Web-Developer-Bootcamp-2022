@@ -1,0 +1,44 @@
+/* h1 is normally a block element, but we will change it to an inline element using display: inline */
+
+h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: inline;
+    margin: 20px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* span is normally an inline element, but we will change it to an inline element using display: inline */
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;
+}
+
+#paragraph1 span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 500px;
+    padding: 10px;
+}
+
+section {
+    width: 800px;
+    height: 800px;
+    background-color: #00b4d8;
+}
+
+section div {
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+}

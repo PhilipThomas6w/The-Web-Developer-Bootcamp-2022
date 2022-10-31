@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Examples</title>
+</head>
+
+<body>
+
+    <h1>Forms Demo</h1>
+
+    <section>
+        <form action="/tacos">
+            <p>
+                <label for="username">Enter your username</label>
+                <input id="username" type="text" placeholder="username" name="username">
+            </p>
+            <p>
+                <label for="password">Enter your password</label>
+                <input type="password" placeholder="password" id="password" name="password">
+            </p>
+            <p>
+                <label for="color">Choose a color</label>
+                <input type="color" id="color" name="color">
+            </p>
+            <p>
+                <label for="number">Enter a number</label>
+                <input number="number" placeholder="enter a number">
+            </p>
+            <button>Submit</button>
+        </form>
+    </section>
+    <p>
+    <section>
+        <form action="https://www.google.co.uk/search?q=">
+            <input type="text" name="q">
+            <button>Google Search</button>
+        </form>
+    </section>
+    </p>
+
+    <hr>
+
+    <h2>Validations Demo</h2>
+
+    <section>
+        <form action="/dummy">
+            <label for="first">Enter First Name</label>
+            <input type="text" name="first" id="first" required>
+            <button>Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
